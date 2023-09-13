@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <header class="header1" color="white">
+    <a href='#' style="text-decoration:none" class='logo'>PORTFOLIO</a>
+    <nav class="navbar">
+      <a href='#home' style="--i:1;text-decoration:none" class="bx bxl-home-alt-2">Home</a>
+      <a href='#about' style="--i:2;text-decoration:none">About</a>
+      <a href='#skills' style="--i:3;text-decoration:none">Skill</a>
+      <a href='#contact' style="--i:4;text-decoration:none">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="home">
+
+    <div class="home-content">
+      <h3> Hello, it's me</h3>
+      <h2> SHIVENDRA GUPTA</h2>
+      <h3>And I'm a <span class="text">full stack web developer</span></h3>
+
+      <div class="home-sci">
+        <a href='#' style="--i:5"><i class='bx bxl-linkedin'></i></a>
+        <a href='#' style="--i:6"><i class='bx bxl-facebook-square'></i></a>
+        <a href='#' style="--i:7"><i class='bx bxl-instagram'></i></a>
+      </div>
+      <a href='#' class="btn-box">More About me</a>
+    </div>
+
+    <span class="home-imgHover"></span>
+  </section>
+  <!--ABOUT START--> <!--ABOUT START-->
+  <section class="about" id="about">
+    <div class="about-img">
+
+      <img class="about-img img " src="./img.jpeg">
+    </div>
+
+    <div class="about-text">
+      <h2>About<span>Me</span></h2>
+      <h4>Full Stack Developer!</h4>
+      <p> I am a skilled web designer and a coder.</p>
+    </div>
+  </section>
+  <!--     SERVICES --> <!--     SERVICES -->
+  <section>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+          <div>
+            <!--boxicon site  bxbx code web icom-->
+            <i class='bx bx-code' style="color: rgb(72, 0, 255);"></i>
+            <h2>Web Page Designer</h2>
+            <p> </p>
+            <a href="#" class="read" style="color:white;">learn more</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section> <!--     SERVICES END --> <!--     SERVICES  END-->
+
+  <!--TECHNICAL SKILLS--> <!--TECHNICAL SKILLS-->
+  <section id="skills" class="skills">
+    <div class="main-text">
+      <h1 class="sub-title">My <span>Skills</span></h1>
+    </div>
+
+    <div class="skill-main">
+      <div class="skill-left">
+        <h2>Technical Skills</h2>
+        <div class="skill-bar">
+          <div class="info"><box-icon type='logo' name='html5'></box-icon>
+            <p>HTML</p>
+            <p>70%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info"><box-icon type='logo' name='css3'></box-icon>
+            <p>CSS</p>
+            <p>70%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info"><box-icon type='logo' name='javascript'></box-icon>
+            <p>JAVASCRIPTL</p>
+            <p>80%</p>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info"><box-icon type='logo' name='react'></box-icon>
+            <p>REACT</p>
+            <p>75%</p>
+          </div>
+          <div class="bar">
+            <span class="react"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info"><box-icon type='logo' name='django'></box-icon>
+            <p>Django</p>
+            <p>85%</p>
+          </div>
+          <div class="bar">
+            <span class="django"></span>
+          </div>
+        </div>
+      </div> <!--PROFESSIONAL SKILLS--> <!--PROFESSIONAL SKILLS-->
+      <div class="skill-right">
+        <h2>Professional Skills</h2>
+        <div class="professional">
+          <div class="box">
+            <div class="progress-bar-container">
+              <h2>
+                <label for="teamwork">Team Work</label>
+              </h2>
+              <div class="progress-bar teamwork">
+                <progress id="teamwork" min="0" max="100" value="92"></progress>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="progress-bar-container">
+              <h2>
+                <label for="creativity">CREATIVITY</label>
+              </h2>
+              <div class="progress-bar creativity">
+                <progress id="creativity" min="0" max="100" value="92"></progress>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="progress-bar-container">
+              <h2>
+                <label for="communication">COMMUNICATION</label>
+              </h2>
+              <div class="progress-bar communication">
+                <progress id="communication" min="0" max="100" value="92"></progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!--PROFESSIONAL SKILLS END--> <!--PROFESSIONAL SKILLS  END -->
+
+
+  <!--CONTACT US--> <!--CONTACT US-->
+  <section id="contact" class="contact">
+    <div class="contact-main">
+      <h2> Contact <span>Me</span></h2>
+    </div>
+    <form acton="#">
+      <input type="text" placeholder="Your Name">
+      <input type="text" placeholder="Your Email">
+      <input type="text" placeholder="Your Address">
+      <input type="number" placeholder="Number">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <div class="btn-box formBtn">
+        <button type="submit" class="btn1">Send Message</button>
+      </div>
+    </form>
+  </section>
+  <!--CONTACT US END--> <!--CONTACT US END-->
+
+
+</body>
